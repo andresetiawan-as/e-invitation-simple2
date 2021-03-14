@@ -88,8 +88,8 @@ const Mockup2 = (props) => {
             <div className="container-content font-m-r">
                 <h1>Our Gallery</h1>
             </div>
-                <div className="image-content-container">
-            <Zoom>
+            <div className="image-content-container">
+                <Zoom>
                     <div className="image-container-gallery">
                         <div className="image-content-1">
                             <img
@@ -152,8 +152,8 @@ const Mockup2 = (props) => {
                             />
                         </div>
                     </div>
-            </Zoom>
-                </div>
+                </Zoom>
+            </div>
             <div className="container-content font-m-r">
                 <Fade top><h1>Live Streaming</h1></Fade>
             </div>
