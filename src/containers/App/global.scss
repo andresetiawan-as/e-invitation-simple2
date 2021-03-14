@@ -1,0 +1,82 @@
+@font-face{
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+  url('../../asset/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: "Montserrat-MediumItalic";
+  src: local("Montserrat-MediumItalic"),
+  url('../../asset/fonts/Montserrat-MediumItalic.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"),
+  url('../../asset/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "AppleGaramond-Bold";
+  src: local("AppleGaramond-Bold"),
+  url('../../asset/fonts/AppleGaramond-Bold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: "AppleGaramond-BoldItalic";
+  src: local("AppleGaramond-BoldItalic"),
+  url('../../asset/fonts/AppleGaramond-BoldItalic.ttf') format('truetype');
+}
+
+body, html {
+  -webkit-overflow-scrolling: touch;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 480px){
+  #root {
+		overflow-x: hidden;
+	}
+  
+  h1 {
+    word-break: break-word;
+    font-size: 1.5rem;
+	}
+  h2 {
+    word-break: break-word;
+    font-size: 1.25rem;
+	}
+  h3 {
+    word-break: break-word;
+    font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 2556px){
+  #root {
+		overflow-x: hidden;
+	}
+
+	#about img {
+		margin: 50px 0;
+	}
+
+	h1 {
+    word-break: break-word;
+    font-size: 2rem;
+	}
+  h2 {
+    word-break: break-word;
+    font-size: 1.75rem;
+	}
+  h3 {
+    word-break: break-word;
+    font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,193 @@
+.font-a-b{
+  font-family: "AppleGaramond-Bold";
+}
+.font-a-b-i{
+  font-family: "AppleGaramond-BoldItalic";
+}
+.font-m-r{
+  font-family: "Montserrat-Regular";
+}
+.font-m-b{
+  font-family: "Montserrat-Bold";
+}
+.font-m-m{
+  font-family: "Montserrat-MediumItalic";
+}
+
+.container {
+  padding-top: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.container-content{
+  margin: 3rem auto;
+  width: 80%;
+  text-align: center;
+}
+
+.container-quote{
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 80%;
+  text-align: center;
+}
+
+.banner{
+  position: relative;
+  background-color: grey;
+  height: 0;
+  padding-bottom: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image{
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.image-content-container{
+  display: flex;
+
+  .image-content{
+    position: relative;
+    background-color: grey;
+    height: 0;
+    padding-bottom: 50%;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.couple{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-left: 30%;
+  margin-right: 30%;
+
+  .sign{
+    padding-top: 5%;
+  }
+
+  .bride-groom{
+    text-align: center;
+  }
+}
+
+.cotainer-video{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background-color: grey;
+}
+
+.video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container-gallery{
+    display: inline-block;
+    width: 100%;
+
+    .image-content-1{
+        position: relative;
+        background-color: grey;
+        height: 60%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .image-content-2{
+        position: relative;
+        background-color: grey;
+        height: 40%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .image-content-3{
+        position: relative;
+        background-color: grey;
+        height: 50%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .image-content-4{
+        position: relative;
+        background-color: grey;
+        height: 50%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .image-content-5{
+        position: relative;
+        background-color: grey;
+        height: 70%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .image-content-6{
+        position: relative;
+        background-color: grey;
+        height: 30%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+  .couple{
+    display: block;
+    justify-content: space-between;
+    margin: 3rem auto;
+    width: 80%;
+
+    .sign{
+      padding-top: unset;
+      text-align: center;
+    }
+  }
+
+  .image-content-container{
+    display: block;
+
+    .image-content{
+      position: relative;
+      background-color: grey;
+      height: 100vh;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  .image-container-gallery{
+    display: block;
+    width: unset;
+
+    .image-content-1, .image-content-2, .image-content-3, .image-content-4, .image-content-5, .image-content-6{
+        height: 100vh;
+    }
+    // .image-content-2{
+    //     height: 100vh;
+    // }
+    // .image-content-3{
+    //     height: 100vh;
+    // }
+    // .image-content-4{
+    //     height: 100vh;
+    // }
+    // .image-content-5{
+    //     height: 100vh;
+    // }
+    // .image-content-6{
+    //     height: 100vh;
+    // }
+}
+}

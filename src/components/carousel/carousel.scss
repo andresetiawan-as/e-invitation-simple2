@@ -1,0 +1,14 @@
+.container-carousel{
+  position: relative;
+  background-color: grey;
+  height: 0;
+  padding-bottom: 50%;
+  margin: 0 auto;
+}
+
+.image-carousel{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

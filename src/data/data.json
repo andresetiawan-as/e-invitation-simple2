@@ -1,0 +1,23 @@
+{
+    "header": {
+        "title": "Together with their families"
+    },
+    "couple": {
+        "groom": "Groom",
+        "bride": "Bride",
+        "groomName": "John Legend Valuable",
+        "brideName": "Leni Kristina Renata",
+        "desription": "Request the honor of your presence on their Holy Matrimony and Reception virtual",
+        "quotation1": "We're getting hitched! And we'd be delighted if you could join our virtual wedding!"
+    },
+    "location":{
+        "holyMatrimony": "Gereja Cathedral",
+        "reception": "Grand Indonesia"
+    },
+    "moment":{
+        "holyMatrimonyDate": "22 FEBRUARY 2021",
+        "receptionDate": "22 FEBRUARY 2021",
+        "holyMatrimonyTime": "10.00 AM",
+        "receptionTime": "13.00 PM" 
+    }
+}
